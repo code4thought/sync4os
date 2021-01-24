@@ -1,0 +1,26 @@
+{
+    "name": "sync4os",
+    "version": "0.0.1",
+    "description": "Synchronize clipboard and notification between operating systems.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": "https://github.com/code4thought/sync4os",
+    "keywords": [
+        "electron",
+        "clipboard",
+        "notification",
+        "macos",
+        "linux"
+    ],
+    "author": "Code4Thought",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^11.2.0"
+    },
+    "dependencies": {
+        "@grpc/grpc-js": "^1.2.4",
+        "@grpc/proto-loader": "^0.5.6"
+    }
+}
